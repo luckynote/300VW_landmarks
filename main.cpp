@@ -60,7 +60,7 @@ void int2str(const int &int_temp,std::string &string_temp)
 
 int main() {
 
-    std::string path = "/media/luckynote/Data/face-recognition/face-eval/300VW_Dataset_2015_12_14/";
+    std::string path = "../300VW_Dataset_2015_12_14/";
     DIR *pDir;
     struct dirent* ptr;
     std::string pathVid;
