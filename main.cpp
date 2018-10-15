@@ -54,7 +54,7 @@ void int2str(const int &int_temp,std::string &string_temp)
 {
     std::stringstream stream;
     stream<<int_temp;
-    string_temp=stream.str();   //此处也可以用 stream>>string_temp
+    string_temp=stream.str();  
 }
 
 
